@@ -48,7 +48,7 @@ async function run() {
       ...context.repo,
       deployment_id: deployment.data.id,
       state: initialStatus,
-      log_url: logUrl,
+      log_url: url,
       environment_url: url
     });
 
